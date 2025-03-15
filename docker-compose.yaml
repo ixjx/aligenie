@@ -1,0 +1,6 @@
+services:
+  django:
+    image: ixjx/aligenie:latest
+    container_name: django
+    network_mode: host  # wol只能局域网唤醒
+    restart: always
